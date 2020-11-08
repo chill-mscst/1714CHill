@@ -28,7 +28,50 @@
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="1714chill2d1.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2d1.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2d2.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2d2.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2d3.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2d3.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2d4.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2d4.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2d5.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2d5.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2d6.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2d6.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2d7.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2d7.PNG</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
