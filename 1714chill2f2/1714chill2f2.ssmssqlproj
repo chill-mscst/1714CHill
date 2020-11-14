@@ -25,10 +25,47 @@
           <AssociatedConnUserName />
           <FullPath>1714chill2f.sql</FullPath>
         </FileNode>
+        <FileNode Name="1714chill2f2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-CTRJ461:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-CTRJ461</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1714chill2f2.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="1714chill2f EF Designer and SSOX.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2f EF Designer and SSOX.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2f1.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2f1.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2f2.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2f2.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2f3.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2f3.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2f4.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2f4.PNG</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>

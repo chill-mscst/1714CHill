@@ -6,20 +6,25 @@
 SELECT        Animals.AnimalName, AnimalTypes.Type, People.FirstName +' '+ People.LastName AS Owner
 FROM            Animals INNER JOIN
                          AnimalTypes ON Animals.AnimalType_Id = AnimalTypes.Id INNER JOIN
-                         People ON Animals.Person_Id = People.Id
+People ON Animals.Person_Id = People.Id
 
 -- 2F.2) Cash donations
-SELECT        People.LastName + ', ' + People.FirstName AS Donor, Donations.DonationDate BETWEEN CONVERT(DATETIME,'2018-10-04 12:00:00' AND CONVERT(DATETIME,'2018-10-04 12:00:00', Donations.Value AS Amount
+SELECT        People.LastName + ', ' + People.FirstName AS Donor, Donations.DonationDate, Donations.Value
 FROM            People INNER JOIN
-                         Donations ON People.Id = Donations.Person_Id
+                         Donations ON People.Id = Donations.Person_Id INNER JOIN
+                         DonationTypes ON Donations.DonationType_Id = DonationTypes.Id
+WHERE        (DonationTypes.Description = N'Cash')
 
 -- 2F.3) Total donations for each donor
-SELECT        People.Id, People.FirstName +' '+ People.LastName AS Donor, Donations.Value AS [Total Donations]
+SELECT        People.Id, People.FirstName +' '+ People.LastName AS Donor, SUM(Donations.Value) AS [Total Donations]
 FROM            People INNER JOIN
                          Donations ON People.Id = Donations.Person_Id
+GROUP BY	  dbo.People.FirstName +' '+ dbo.People.LastName, dbo.People.Id
 
 -- 2F.4) Number of dogs for each owner
-SELECT        People.LastName + ',' + People.FirstName AS Owner, AnimalTypes.Type AS [Number of Dogs], AnimalTypes.Id
-FROM            Animals INNER JOIN
-                         People ON Animals.Person_Id = People.Id INNER JOIN
-                         AnimalTypes ON Animals.AnimalType_Id = AnimalTypes.Id
+SELECT        People.Id, People.LastName +','+ People.FirstName AS Owner, COUNT(*) AS [Number of Dogs]
+FROM            People INNER JOIN
+                         AnimalTypes ON People.Id = AnimalTypes.Id INNER JOIN
+                         Animals ON People.Id = Animals.Person_Id AND AnimalTypes.Id = Animals.AnimalType_Id
+WHERE        (AnimalTypes.Type = 'Dog')
+GROUP BY	People.Id, People.LastName +N','+ People.FirstName
