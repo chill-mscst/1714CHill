@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="1714chill2g2">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-CTRJ461:DESKTOP-CTRJ461\hillc">
+          <Created>2020-11-22T23:16:12.7922745-06:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-CTRJ461</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>PropertyManager2</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1714chill2g2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-CTRJ461:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-CTRJ461</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1714chill2g2.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="1714chill2g1.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2g1.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2g2.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2g2.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2g3.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2g3.PNG</FullPath>
+        </FileNode>
+        <FileNode Name="1714chill2g4_EfDiagram.PNG">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1714chill2g4_EfDiagram.PNG</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

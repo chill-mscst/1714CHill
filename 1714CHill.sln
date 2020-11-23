@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1714chill2g", "1714chill2g\1714chill2g.csproj", "{3A9C4165-B765-45B7-947E-649461A2C4FD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "1714ex2g", "1714ex2g\1714ex2g.sqlproj", "{F2527453-341E-42C5-AA17-E9F863F6EE34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,16 @@ Global
 		{09DC7A26-F90E-4BD6-A540-DA5B3D1D4857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09DC7A26-F90E-4BD6-A540-DA5B3D1D4857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09DC7A26-F90E-4BD6-A540-DA5B3D1D4857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9C4165-B765-45B7-947E-649461A2C4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9C4165-B765-45B7-947E-649461A2C4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9C4165-B765-45B7-947E-649461A2C4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9C4165-B765-45B7-947E-649461A2C4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2527453-341E-42C5-AA17-E9F863F6EE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2527453-341E-42C5-AA17-E9F863F6EE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2527453-341E-42C5-AA17-E9F863F6EE34}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F2527453-341E-42C5-AA17-E9F863F6EE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2527453-341E-42C5-AA17-E9F863F6EE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2527453-341E-42C5-AA17-E9F863F6EE34}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
